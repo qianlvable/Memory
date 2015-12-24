@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:r="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.qianlv.towenqi.UI.fragment.WelcomeMapFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_centerInParent="true"
+
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="330dp"
+        android:layout_height="490dp"
+        card_view:cardCornerRadius="4dp">
+        <com.towenqi.qianlv.memory.UI.IntroView
+            android:id="@+id/intro"
+            android:background="#2196F3"
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+
+            r:phase="1.0"
+            r:duration="3500"
+            r:fadeFactor="10.0"
+            r:strokeWidth="2.0"
+            r:strokeColor="#ffffffff" />
+        <TextView
+            android:text="宁波 - 长春"
+            android:layout_marginTop="430dp"
+            android:textColor="#d9000000"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/map_slogan"
+            android:layout_gravity="bottom"
+
+            android:textSize="15sp"
+            android:text="距离2184公里，我们在北京相遇"
+            android:textColor="#d9000000"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+/>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.towenqi.qianlv.memory.DetailActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <ImageView
+            tools:src="@drawable/test"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:transitionName="cover"
+            android:id="@+id/detail_img"
+            android:layout_width="match_parent"
+            />
+        <ImageView
+            android:id="@+id/back_btn"
+            android:padding="10dp"
+            android:src="@drawable/ic_back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <TextView
+            android:transitionName="title"
+            android:id="@+id/detail_title"
+            android:padding="15dp"
+            android:background="#eee"
+            android:textColor="#212121"
+            tools:text="这是标题"
+            android:textSize="19sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/detail_description"
+            android:padding="15dp"
+            android:textSize="16sp"
+            tools:text="这里是描述描述测试一下黄哈精灵旅社开发技术龙卷风离开家算了就流口水京东方离开时间了"
+            android:lineSpacingExtra="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

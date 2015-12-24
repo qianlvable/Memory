@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IntroView">
+        <attr name="strokeWidth" format="float" />
+        <attr name="strokeColor" format="color|reference" />
+        <attr name="phase" format="float" />
+        <attr name="duration" format="integer" />
+        <attr name="fadeFactor" format="float" />
+        <attr name="waitRadius" format="dimension" />
+        <attr name="arrowLength" format="dimension" />
+        <attr name="arrowHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RealHorizontalScrollView">
+        <attr name="src" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RealViewPager">
+        <attr name="parallaxVelocity" format="float" />
+    </declare-styleable>
+</resources>
